@@ -3,7 +3,8 @@ export const metadata = {
   title: "Kontakt – GSphotography",
 };
 
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "../../components/ContactForm";
+
 
 export default function ContactPage() {
   return (
