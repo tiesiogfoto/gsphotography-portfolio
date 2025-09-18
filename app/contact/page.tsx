@@ -1,4 +1,4 @@
-export const metadata = { title: "Kontakt – GSphotography" };
+export const metadata = { title: 'Kontakt – GSphotography' };
 
 export default function ContactPage() {
   return (
@@ -7,28 +7,21 @@ export default function ContactPage() {
       <p className="text-white/70 mt-4 leading-7">
         Ta gjerne kontakt for booking eller spørsmål.
       </p>
-
-      <div className="mt-6 space-y-4 text-white/80">
-        <p>
-          Telefon:{" "}
-          <a
-            href="tel:46262381"
-            className="text-green-500 hover:underline font-medium"
-          >
+      <ul className="mt-6 space-y-2 text-white/80">
+        <li>
+          Telefon:{' '}
+          <a href="tel:46262381" className="text-green-500">
             46 26 23 81
           </a>
-        </p>
-        <p>
-          E-post:{" "}
-          <a
-            href="mailto:info@gsphotography.no"
-            className="text-green-500 hover:underline font-medium"
-          >
+        </li>
+        <li>
+          E-post:{' '}
+          <a href="mailto:info@gsphotography.no" className="text-green-500">
             info@gsphotography.no
           </a>
-        </p>
-        <p>Sted: Norge</p>
-      </div>
+        </li>
+        <li>Sted: Aust-Torpa, Norge</li>
+      </ul>
     </section>
   );
 }
