@@ -16,7 +16,7 @@ export default function ContactPage() {
       {/* Forma */}
       <ContactForm />
 
-      {/* Papildoma kontaktinė informacija */}
+      {/* Papildoma kontaktinė informacija (be telefono, kaip prašei) */}
       <div className="mt-8 space-y-2 text-white/80">
         <p>
           E-post:{" "}
