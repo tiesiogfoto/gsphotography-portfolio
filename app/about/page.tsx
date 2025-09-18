@@ -1,20 +1,19 @@
-export const metadata = { title: 'Om oss – GSphotography' };
+export const metadata = { title: "Om oss – GSphotography" };
 
 export default function AboutPage() {
   return (
     <section className="container-padded mt-12 max-w-3xl">
-      <h1 className="text-3xl md:text-4xl font-semibold">Om meg</h1>
+      <h1 className="text-3xl md:text-4xl font-semibold">Om oss</h1>
       <p className="text-white/70 mt-4 leading-7">
-        Hei, jeg er Giedre — en fotograf basert i Norge som fokuserer på rene
-        produkt-, portrett- og arkitekturbilder. Jeg har et skarpt blikk for
-        detaljer og lyssetting, og holder uttrykket tidløst og profesjonelt.
+        Hei, jeg er Giedrė — en fotograf basert i Norge med fokus på rene
+        produktbilder, portretter og arkitekturfotografi. Jeg har et skarpt øye
+        for detaljer og lys, og skaper tidløse og profesjonelle uttrykk.
       </p>
       <ul className="mt-6 space-y-2 text-white/80">
         <li>• Produkt- og e-handel</li>
-        <li>• Portretter & headshots</li>
+        <li>• Portretter & profilbilder</li>
         <li>• Arkitektur & interiør</li>
       </ul>
     </section>
   );
 }
-
