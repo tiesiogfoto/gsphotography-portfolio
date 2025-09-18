@@ -13,10 +13,10 @@ export default function ContactPage() {
         Ta gjerne kontakt for booking eller spørsmål.
       </p>
 
-      {/* Klientinė forma */}
+      {/* Forma */}
       <ContactForm />
 
-      {/* Kontakt duomenys (be telefono) */}
+      {/* Papildoma kontaktinė informacija */}
       <div className="mt-8 space-y-2 text-white/80">
         <p>
           E-post:{" "}
