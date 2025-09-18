@@ -1,4 +1,4 @@
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "../../components/ContactForm";
 
 export const metadata = {
   title: "Kontakt – GSphotography",
@@ -17,7 +17,10 @@ export default function ContactPage() {
       <div className="mt-8 text-white/80 space-y-2">
         <p>
           Telefon:{" "}
-          <a href="tel:46262381" className="underline decoration-white/40 hover:decoration-white">
+          <a
+            href="tel:46262381"
+            className="underline decoration-white/40 hover:decoration-white"
+          >
             46 26 23 81
           </a>
         </p>
