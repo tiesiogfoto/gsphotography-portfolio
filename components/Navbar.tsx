@@ -14,7 +14,8 @@ export default function Navbar() {
         {/* Navigacija */}
         <div className="flex gap-4">
           <Link href="/">Hjem</Link>
-          <Link href="/portfolio">Portefølje</Link>
+          <Link href="/portfolio">Galleri</Link>
+
           <Link href="/about">Om oss</Link>
           <Link href="/contact">Kontakt</Link>
 
