@@ -1,18 +1,11 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import "./globals.css";
+import type { Metadata } from "next";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: 'GSphotography – Portfolio',
-  description: 'Minimal, modern photography portfolio.',
-  icons: { icon: '/favicon.ico' },
-  openGraph: {
-    title: 'GSphotography',
-    description: 'Minimal, modern photography portfolio.',
-    images: [{ url: '/og-image.png' }],
-    type: 'website',
-  }
+  title: "GSphotography",
+  description: "Clean, timeless photography for brands and people."
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
