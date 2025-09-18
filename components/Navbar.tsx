@@ -13,17 +13,17 @@ export default function Navbar() {
 
         {/* Navigacija */}
         <div className="flex gap-4">
-          <Link href="/">Home</Link>
-          <Link href="/portfolio">Portfolio</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/">Hjem</Link>
+          <Link href="/portfolio">Portefølje</Link>
+          <Link href="/about">Om oss</Link>
+          <Link href="/contact">Kontakt</Link>
 
           {/* Telefonas su tap-to-call */}
           <a
             href="tel:46262381"
             className="ml-4 px-3 py-1 rounded bg-green-600 text-white hover:bg-green-700"
           >
-            Call: 46 26 23 81
+            Ring: 46 26 23 81
           </a>
         </div>
       </div>
